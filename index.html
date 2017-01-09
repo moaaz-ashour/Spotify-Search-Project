@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <link type="text/css" rel="stylesheet" href="stylesheet.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Spotify Search</title>
+   </head>
+
+   <body>
+      <div id='header'>
+         <h1>Spotify Search</h1>
+         <div id="right">MUSIC</div>
+         <div id="left">LIFE</div>
+         <div id='text_in_header'><strong>"Music washes away from the soul the dust of everyday life. ~Berthold Auerbach"<strong></div>
+      </div>
+
+      <div id='container'>
+         <input id='textInput' placeholder= "search here">
+         <select id='options'>
+            <option value="artist">artists</option>
+            <option value="album">albums</option>
+         </select>
+         <button id="go" class="btn btn-5">GO</button>
+      </div>
+
+      <div>
+         <p id="resultsForArtist"></p>
+      </div>
+
+      <div id="resultsBox"></div>
+      <div id="showMoreResults"></div>
+      <div id="noMoreResults"></div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
